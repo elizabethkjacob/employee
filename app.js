@@ -17,7 +17,7 @@ mongoose.connect(mongoDB_URL).then(()=>{
 })
 .catch((error)=>{
     console.error('Connection Error!!!',error);
-})
+}) 
 
 //creating schema
 const employeeSchema = mongoose.Schema({
